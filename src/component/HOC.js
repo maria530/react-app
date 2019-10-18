@@ -10,6 +10,7 @@ export default (WrappedComponent, name) => {
         }
 
         componentWillMount() {
+            localStorage.setItem('myItem','我的项目');
             const data = localStorage.getItem('myItem');
             this.setState({
                 data

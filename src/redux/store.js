@@ -1,9 +1,3 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import ReactDOM from 'react-dom';
-import Header from './header';
-import Content from './content';
-import { Provider } from './provider';
 
 /*
 context的用法是：
@@ -48,32 +42,7 @@ const themeReducer = (state, action) => {
 const store = createStore(themeReducer);
 // store.subscribe(() => renderApp());
 
-
-class Index extends Component {
-    static childContextTypes = {
-        store: PropTypes.object
-    }
-
-    getChildContext() {
-        return { store }
-    }
-
-    render() {
-        return (
-            <div>
-                <Header />
-                <Content />
-            </div>
-        )
-    }
-}
-
-ReactDOM.render(
-    <Provider store={ store }>
-        <Index />
-    </Provider>
-    , document.getElementById('app'));
-
+export default store;
 
 /**
  * summary:

@@ -1,3 +1,8 @@
+/**
+ * 以下是手写的react-redux的创建过程  无法用import export的方式实现
+    如需查看，可以更改文件名为index.js渲染这个文件
+ */
+
 /* 
 以下是模拟react.js结合redux架构模式的一个实例。
 在这个文件的同级目录下，有一个.html文件，body里面有两个元素

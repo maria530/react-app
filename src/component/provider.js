@@ -19,8 +19,13 @@ export class Provider extends Component {
     }
 
     render() {
+        console.log('this.props.children: ',this.props.children);
+        /**
+         * this.props.children指的是被Provider组件所包裹的组件元素，在本项目中指的是Home组件
+         */
         return (
             <div>{ this.props.children }</div>
         )
     }
 }
+
