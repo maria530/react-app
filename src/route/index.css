@@ -9,3 +9,8 @@ ul {
 a {
     text-decoration: none;
 }
+
+.myLinkStyle {
+    color: blue;
+    font-weight: bolder;
+}
