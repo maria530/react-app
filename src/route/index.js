@@ -7,6 +7,7 @@ import {
     NavLink,
     Redirect
 } from 'react-router-dom';
+import IndexPage from '../page/indexPage.js';
 import StaticPage from '../page/staticPage';
 import DynamicPage from '../page/dynamicPage';
 import HOCPage from '../page/HOCPage';
@@ -16,7 +17,7 @@ import './index.css';
 class Index extends Component {
     render() {
         return (
-            <div>This is Index Component</div>
+            <IndexPage />
         )
     }
 }
@@ -75,7 +76,7 @@ class ReactAppRoute extends Component {
 export default ReactAppRoute;
 
 /**
- * https://reacttraining.com/react-router/web/api/NavLink/activeclassname-string 
+ * https://reacttraining.com/react-router/web/api/NavLink/activeclassname-string
  * 关于react-router比较值得参考的文档
  * 1.BrowserRouter
  * 一般用作整个app的路由配置的组件
@@ -83,8 +84,8 @@ export default ReactAppRoute;
  * 底层原理是使用h5的history API来执行的
  * a. basename属性： 所有location的base url。如果后端是从服务器的子目录提供service服务，那么前端需要给每一个链接都加上一个类似于项目的pathname
  * 此时使用basename会更简便很多
- * 
- * 
+ *
+ *
  * 2.NavLink: A special version of the <Link> that will add styling attributes to the rendered element when it matches the current URL.
  * 如果当前link的状态变为active,那么后面对应的style或者css样式就会展示
  *  a. strict这个属性的作用,顾名思义是严格一致activeClassName和activeStyle才会起作用
@@ -103,10 +104,10 @@ export default ReactAppRoute;
                                 color: 'red'
                             }}>DynamicPage</NavLink>
 
-    
+
 
     3.HashRouter
-    hash router是用hash来进行页面切换的.现代浏览器不建议使用 
+    hash router是用hash来进行页面切换的.现代浏览器不建议使用
     原生js种可以用onhashchange来进行页面不同组件的切换
     表现方式为在url后面加上  #pathname （如果path="/staticPage",那么页面的后面会是 #/staticPage）
 
@@ -117,8 +118,8 @@ export default ReactAppRoute;
     <Route exact path="/hocPage">
         { loggedIn ? <HOCPage /> : <Redirect to="/" /> }
     </Route>
-        
-    from属性：  
+
+    from属性：
     <Redirect from="/users/:id" to="/staticPage" />
     如果一个url符合from的值的path，那么会自动重定向到to的值所在的pathname
     如果页面有这个pathname，那么这个pathname对应的组件就会呈现在页面上

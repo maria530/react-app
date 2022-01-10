@@ -1,0 +1,303 @@
+const data = [{
+	"id": "1",
+	"name": "Automotive"
+}, {
+	"id": "2",
+	"name": "Kids"
+}, {
+	"id": "3",
+	"name": "Computers"
+}, {
+	"id": "4",
+	"name": "Music"
+}, {
+	"id": "5",
+	"name": "Health"
+}, {
+	"id": "6",
+	"name": "Baby"
+}, {
+	"id": "7",
+	"name": "Jewelery"
+}, {
+	"id": "8",
+	"name": "Beauty"
+}, {
+	"id": "9",
+	"name": "Health"
+}, {
+	"id": "10",
+	"name": "Beauty"
+}, {
+	"id": "11",
+	"name": "Health"
+}, {
+	"id": "12",
+	"name": "Automotive"
+}, {
+	"id": "13",
+	"name": "Automotive"
+}, {
+	"id": "14",
+	"name": "Music"
+}, {
+	"id": "15",
+	"name": "Tools"
+}, {
+	"id": "16",
+	"name": "Books"
+}, {
+	"id": "17",
+	"name": "Electronics"
+}, {
+	"id": "18",
+	"name": "Sports"
+}, {
+	"id": "19",
+	"name": "Music"
+}, {
+	"id": "20",
+	"name": "Computers"
+}, {
+	"id": "21",
+	"name": "Sports"
+}, {
+	"id": "22",
+	"name": "Sports"
+}, {
+	"id": "23",
+	"name": "Toys"
+}, {
+	"id": "24",
+	"name": "Tools"
+}, {
+	"id": "25",
+	"name": "Clothing"
+}, {
+	"id": "26",
+	"name": "Tools"
+}, {
+	"id": "27",
+	"name": "Toys"
+}, {
+	"id": "28",
+	"name": "Garden"
+}, {
+	"id": "29",
+	"name": "Outdoors"
+}, {
+	"id": "30",
+	"name": "Health"
+}, {
+	"id": "31",
+	"name": "Movies"
+}, {
+	"id": "32",
+	"name": "Sports"
+}, {
+	"id": "33",
+	"name": "Automotive"
+}, {
+	"id": "34",
+	"name": "Kids"
+}, {
+	"id": "35",
+	"name": "Health"
+}, {
+	"id": "36",
+	"name": "Home"
+}, {
+	"id": "37",
+	"name": "Games"
+}, {
+	"id": "38",
+	"name": "Toys"
+}, {
+	"id": "39",
+	"name": "Electronics"
+}, {
+	"id": "40",
+	"name": "Industrial"
+}, {
+	"id": "41",
+	"name": "Grocery"
+}, {
+	"id": "42",
+	"name": "Music"
+}, {
+	"id": "43",
+	"name": "Baby"
+}, {
+	"id": "44",
+	"name": "Baby"
+}, {
+	"id": "45",
+	"name": "Jewelery"
+}, {
+	"id": "46",
+	"name": "Books"
+}, {
+	"id": "47",
+	"name": "Baby"
+}, {
+	"id": "48",
+	"name": "Home"
+}, {
+	"id": "49",
+	"name": "Electronics"
+}, {
+	"id": "50",
+	"name": "Kids"
+}, {
+	"id": "51",
+	"name": "Automotive"
+}, {
+	"id": "52",
+	"name": "Sports"
+}, {
+	"id": "53",
+	"name": "Kids"
+}, {
+	"id": "54",
+	"name": "Toys"
+}, {
+	"id": "55",
+	"name": "Shoes"
+}, {
+	"id": "56",
+	"name": "Shoes"
+}, {
+	"id": "57",
+	"name": "Toys"
+}, {
+	"id": "58",
+	"name": "Kids"
+}, {
+	"id": "59",
+	"name": "Automotive"
+}, {
+	"id": "60",
+	"name": "Music"
+}, {
+	"id": "61",
+	"name": "Movies"
+}, {
+	"id": "62",
+	"name": "Kids"
+}, {
+	"id": "63",
+	"name": "Outdoors"
+}, {
+	"id": "64",
+	"name": "Outdoors"
+}, {
+	"id": "65",
+	"name": "Sports"
+}, {
+	"id": "66",
+	"name": "Books"
+}, {
+	"id": "67",
+	"name": "Books"
+}, {
+	"id": "68",
+	"name": "Electronics"
+}, {
+	"id": "69",
+	"name": "Baby"
+}, {
+	"id": "70",
+	"name": "Sports"
+}, {
+	"id": "71",
+	"name": "Shoes"
+}, {
+	"id": "72",
+	"name": "Home"
+}, {
+	"id": "73",
+	"name": "Electronics"
+}, {
+	"id": "74",
+	"name": "Jewelery"
+}, {
+	"id": "75",
+	"name": "Toys"
+}, {
+	"id": "76",
+	"name": "Beauty"
+}, {
+	"id": "77",
+	"name": "Music"
+}, {
+	"id": "78",
+	"name": "Automotive"
+}, {
+	"id": "79",
+	"name": "Books"
+}, {
+	"id": "80",
+	"name": "Tools"
+}, {
+	"id": "81",
+	"name": "Movies"
+}, {
+	"id": "82",
+	"name": "Outdoors"
+}, {
+	"id": "83",
+	"name": "Toys"
+}, {
+	"id": "84",
+	"name": "Electronics"
+}, {
+	"id": "85",
+	"name": "Toys"
+}, {
+	"id": "86",
+	"name": "Home"
+}, {
+	"id": "87",
+	"name": "Clothing"
+}, {
+	"id": "88",
+	"name": "Jewelery"
+}, {
+	"id": "89",
+	"name": "Kids"
+}, {
+	"id": "90",
+	"name": "Beauty"
+}, {
+	"id": "91",
+	"name": "Jewelery"
+}, {
+	"id": "92",
+	"name": "Kids"
+}, {
+	"id": "93",
+	"name": "Garden"
+}, {
+	"id": "94",
+	"name": "Kids"
+}, {
+	"id": "95",
+	"name": "Toys"
+}, {
+	"id": "96",
+	"name": "Books"
+}, {
+	"id": "97",
+	"name": "Health"
+}, {
+	"id": "98",
+	"name": "Automotive"
+}, {
+	"id": "99",
+	"name": "Music"
+}, {
+	"id": "100",
+	"name": "Computers"
+}]
+
+export default data;
